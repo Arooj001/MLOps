@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle 
+import sklearn
 
 # load model
 model = pickle.load(open('sentiment_analysis.pkl', 'rb'))
